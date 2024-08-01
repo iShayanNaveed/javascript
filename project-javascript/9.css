@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@500&family=Poppins:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+
+  font-style: normal;
+  background-color: rgb(255, 166, 0);
+  /* overflow: hidden; */
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.work {
+  width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: white;
+  box-shadow: 10px 10px 24px 20px rgba(0, 0, 0, 0.5);
+}
+.work h1 {
+  font-size: 2.5rem;
+  margin-top: 1em;
+}
+.work #pencil {
+  color: rgb(255, 166, 0);
+  font-size: 2rem;
+}
+.work #arrow {
+  color: rgb(255, 166, 0);
+  font-size: 2rem;
+}
+.work input {
+  font-family: inherit;
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  width: 70%;
+  font-size: 1.5rem;
+}
+
+#displayitems h2 {
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+#arrow {
+  cursor: pointer;
+}
+.xmark {
+  color: rgb(255, 166, 0);
+  font-size: 1rem;
+  background-color: white;
+  border: none;
+  outline: none;
+}

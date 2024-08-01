@@ -1,0 +1,77 @@
+/* to change the color of text every time and make an animation */
+/* .demo {
+  animation: changecolor 5s infinite alternate;
+}
+@keyframes changecolor {
+  0% {
+    color: rgb(0, 155, 155);
+  }
+  20% {
+    color: rgb(145, 255, 0);
+  }
+  40% {
+    color: rgb(89, 0, 255);
+  }
+  60% {
+    color: rgb(255, 0, 179);
+  }
+  80% {
+    color: rgb(255, 0, 13);
+  }
+  100% {
+    color: rgb(255, 174, 0);
+  }
+} */
+
+body {
+  background-color: #06bcc1;
+}
+.container {
+  width: 95%;
+
+  height: 85vh;
+  display: flex;
+}
+.quotes {
+  width: 900px;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: grey;
+  background-color: #f4edea;
+  border: 10px solid #f4d1ae;
+}
+.quotes p,
+.quotes h3 {
+  font-size: 1.5rem;
+}
+.click {
+  animation: colorchange 5s infinite alternate;
+}
+@keyframes colorchange {
+  0% {
+    color: rgb(0, 155, 155);
+  }
+  20% {
+    color: rgb(145, 255, 0);
+  }
+  40% {
+    color: rgb(89, 0, 255);
+  }
+  60% {
+    color: rgb(255, 0, 179);
+  }
+  80% {
+    color: rgb(255, 0, 13);
+  }
+  100% {
+    color: rgb(255, 174, 0);
+  }
+}
+#quote-display {
+  animation: colorchange 5s infinite alternate;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: #fcfc62;
+}
+.container {
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  border: 5px solid black;
+  width: 600px;
+  height: 350px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fefffa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter h1 {
+  font-size: 2rem;
+}
+#count {
+  font-size: 9rem;
+}

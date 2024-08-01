@@ -1,0 +1,15 @@
+body {
+  background-image: url(black-background-09-wallpaperaccess.png);
+  background-repeat: no-repeat;
+}
+#drop-down {
+  border: 1px solid #e3cdcd;
+  padding: 6px;
+  border-radius: 11px;
+  background-color: black;
+  color: wheat;
+}
+#text-box {
+  background-color: black;
+  color: wheat;
+}
