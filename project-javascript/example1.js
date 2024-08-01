@@ -80,32 +80,32 @@
 //   console.log(temp);
 // }
 //prime number
-function check() {
-  let num = prompt(`Enter a number:`);
-  if (num == 1) {
-    alert("The number you entered is prime number");
-  }
-  if (num == 2) {
-    alert("The number you entered is prime number");
-  }
-  if (num < 1) {
-    alert("Please Enter a Valid Input:");
-    return false;
-  } else {
-    for (let i = 2; i < num; i++) {
-      if (num % i === 0) {
-        alert("The number you entered is not a prime number");
-        return false;
-      } else {
-        alert("The number you entered is prime number");
-        return true;
-      }
-    }
-  }
-}
-for (x = 0; x > -1; x++) {
-  check();
-}
+  // function check() {
+  //   let num = prompt(`Enter a number:`);
+  //   if (num == 1) {
+  //     alert("The number you entered is prime number");
+  //   }
+  //   if (num == 2) {
+  //     alert("The number you entered is prime number");
+  //   }
+  //   if (num < 1) {
+  //     alert("Please Enter a Valid Input:");
+  //     return false;
+  //   } else {
+  //     for (let i = 2; i < num; i++) {
+  //       if (num % i === 0) {
+  //         alert("The number you entered is not a prime number");
+  //         return false;
+  //       } else {
+  //         alert("The number you entered is prime number");
+  //         return true;
+  //       }
+  //     }
+  //   }
+  // }
+  // for (x = 0; x > -1; x++) {
+  //   check();
+  // }
 //end
 // //leap year
 // let userInput = prompt(`Enter The Year:`)
