@@ -172,6 +172,7 @@
 
 //end
 //adding data
+
 let userInput1 = prompt(`Enter the amount of students you want to enter:`);
 let x = parseInt(userInput1);
 let display = [];
@@ -187,4 +188,8 @@ for (let i = 0; i < x; i++) {
   display.push(studentData);
 }
 console.log(display);
+
 //end
+//foreach filter map forof forin
+//arrow function,promises,fetchapi
+//objects,scope,type conversion,

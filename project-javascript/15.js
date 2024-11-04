@@ -13,7 +13,7 @@ function loadImg() {
   const url =
     "https://api.unsplash.com/search/photos/?query=" +
     input.value +
-    "&per_page=50&client_id=3j6uyueuE-_l8wRPdDVpAggNOHqS737kPc2tVc5Eo-M";
+    "&per_page=10&client_id=3j6uyueuE-_l8wRPdDVpAggNOHqS737kPc2tVc5Eo-M";
   fetch(url)
     .then((response) => {
       if (response.ok) {
